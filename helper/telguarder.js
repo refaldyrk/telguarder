@@ -8,11 +8,7 @@ async function telguarder(number) {
 
     let config = {
         method: 'post',
-        maxBodyLength: Infinity,
         url: 'https://www.telguarder.com/id/search',
-        headers: {
-            ...data.getHeaders()
-        },
         data : data
     };
 
